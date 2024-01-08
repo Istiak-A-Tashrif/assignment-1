@@ -153,7 +153,7 @@
 
 .offer {
     display: flex;
-    width: 1600px;
+    width: 1320px;
     margin: 120px auto;
 }
 
@@ -202,4 +202,124 @@
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 32px;
+    margin-right: -100px;
 }    
+
+/* sale section */
+
+.sale {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.sale #s-txt1 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sale #s-txt2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale #s-txt2 #hl {
+    color: #F00;
+}
+
+.sale #s-txt2 #sl {
+    color: #070211;
+} 
+
+.sale #s-txt3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px; 
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    width: 93vw;
+    margin-bottom: 0;
+}
+
+.background-image1 {
+    position: relative;
+    top: 0;
+    right: 50%;
+    left: 50%;
+}
+
+.circular-image {
+    position: relative;
+    left: 15%;
+    bottom: 25%;
+}
+
+.image2 {
+    display: flex;
+    position: relative;
+    margin-top: -5px;
+}
+
+.bg-img {
+    position: relative;
+    height: 200px;
+    width: 1320px;
+    
+}
+
+.bg-img2{
+    position: relative;
+    top: 100%;
+    bottom: 100%;
+    right: 100%;
+}
+
+/* portfolio sec */
+
+.portfolio {
+    margin: 0 140px;
+}
+
+.portfolio p {
+    width: 900px;
+}
+
+.portfolio #p-txt1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.portfolio #p-txt2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio #p-txt3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.portfolio img {
+    width: 424px;
+    height: 450px;
+}
