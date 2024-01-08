@@ -302,7 +302,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin: 0;
+    margin: 40px 0 0 0 ;
 }
 
 .portfolio #p-txt2 {
@@ -373,6 +373,7 @@
     font-weight: 600;
     text-transform: capitalize;
     padding: 24px 56px;
+    border: none;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
@@ -397,6 +398,7 @@
 
 .cont .dis {
     margin-bottom: 50px;
+    gap: 50vw;
 }
 
 .cont div p {
