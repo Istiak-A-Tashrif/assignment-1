@@ -30,4 +30,31 @@
     padding-top: 177px;
    
 }    
+
+/* holiday deal style */
+
+.h-deal {
+    text-align: center;
+}
  
+.h-deal #off {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.h-deal #txt {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.h-deal #ctr {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
