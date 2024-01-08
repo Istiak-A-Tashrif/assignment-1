@@ -382,3 +382,45 @@
     cursor: pointer;
 }
 
+/* contact sec */
+
+.gen-div {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.cont {
+    padding: 120px 140px;
+    background: #070211;
+    width: 1600px;
+}
+
+.cont .dis {
+    margin-bottom: 50px;
+}
+
+.cont div p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    display: inline;
+}
+
+.cont #icn {
+    justify-content: center;
+}
+
+.cont #icn .icon {
+    margin: 48px 24px;
+}
+
+.rights {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
