@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* this is the banner sec */
-.banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
- }   
- .gen-img {
+.gen-img {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -12,7 +8,13 @@
     margin: 0 auto; 
     width: 1320px;
     height: 600px;
-}
+}  
+
+/* this is the banner sec */
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+ }   
 
 .banner h1 {
     color: #FFF;
@@ -146,3 +148,58 @@
     margin: 0 auto;
     display: block;
 }
+
+/* new offer sec */
+
+.offer {
+    display: flex;
+    width: 1600px;
+    margin: 120px auto;
+}
+
+.offer #txt1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.offer #txt2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+.offer #txt3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.offer #ellipse {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+    margin-left: 70px;
+    margin-right: 118px;
+}
+
+.offer #txt-r-1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer #txt-r-2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}    
