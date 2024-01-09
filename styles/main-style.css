@@ -36,13 +36,10 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 32px;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
 }
 
 .party #join:hover {
     color: blue;
-    cursor: pointer;
 }
 
 .party #pr-img {
@@ -73,7 +70,7 @@
     color: #F00;
 }
 
-.venue button {
+.venue a button {
     color: #FFF;
     background-color: #F00;
     font-family: 'Inter', sans-serif;
@@ -166,6 +163,7 @@
     font-size: 24px;
     font-weight: 500;
     text-align: center;
+    
 }
 
 .sale #s-txt2 {
@@ -173,6 +171,7 @@
     font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
+    margin: 0;
 }
 
 .sale #s-txt2 #hol {
@@ -190,6 +189,7 @@
 
 .flx-img {
     margin-top: 64px;
+    margin-bottom: 150px;
     display: inline-flex;
     justify-content: space-between;
     background-image: url(../resources/red.png);
