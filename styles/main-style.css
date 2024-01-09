@@ -151,8 +151,13 @@
 /* sale section */
 
 .sale {
-    width: 1320px;
+    margin: 0 150px;
+}
+
+.s-txt {
+    max-width: 1000px;
     margin: 0 auto;
+
 }
 
 .sale #s-txt1 {
@@ -170,13 +175,9 @@
     font-weight: 900;
 }
 
-.sale #s-txt2 #hl {
+.sale #s-txt2 #hol {
     color: #F00;
 }
-
-.sale #s-txt2 #sl {
-    color: #070211;
-} 
 
 .sale #s-txt3 {
     color: rgba(7, 2, 17, 0.60);
@@ -184,31 +185,32 @@
     font-size: 20px;
     line-height: 32px; 
     text-align: center;
+   
 }
 
-.flx {
-    padding-right: 20px;
-    display: flex;
+.flx-img {
+    margin-top: 64px;
+    display: inline-flex;
     justify-content: space-between;
-}
-
-.flx .image {
     background-image: url(../resources/red.png);
-    background-position: bottom;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 
-.flx .image2 {
+ .flx-img .image {
     background-image: url(../resources/girl.png);
     background-repeat: no-repeat;
     background-position: top right;
-    padding-right: 100px;
-}    
+    padding-right: 286px;
+    padding-top: 86px; 
+}
+
 
 /* portfolio sec */
 
 .portfolio {
-    margin: 0 150px;
+    margin: 0 220px;
 }
 
 .portfolio #p-txt1 {
