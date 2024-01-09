@@ -240,8 +240,7 @@
     margin-bottom: 48px;
 }
 
-.portfolio img {
-    width: 424px;
-    height: 450px;
+.portfolio .p-img:hover {
+    transform: scale(1.1);
 }
 
