@@ -174,10 +174,13 @@
     margin: 0;
 }
 
-.sale #s-txt2 #hol {
+.sale #s-txt2 .hol {
     color: #F00;
 }
 
+.sale #s-txt2 .hol:hover {
+    color: blueviolet;
+}
 .sale #s-txt3 {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -204,6 +207,10 @@
     background-position: top right;
     padding-right: 286px;
     padding-top: 86px; 
+}
+
+.image .img-mod:hover {
+    transform: scale(1.1);
 }
 
 

@@ -88,8 +88,24 @@
     margin: 48px 24px;
 }
 
-#unsub {
+.cont .tel:hover {
+    color: green;
+}
+
+.cont .web:hover {
+    color: blue;
+}
+
+.cont .cont-icon img:hover {
+    transform: scale(1.1);
+}
+
+.unsub {
     color: #FFF;
     margin-top: 18px;
+}
+
+.unsub:hover {
+    color: #F00;
 }
 
